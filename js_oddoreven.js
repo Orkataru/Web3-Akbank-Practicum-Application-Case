@@ -11,14 +11,12 @@ function oddoreven(a){
     } 
 
 
-if (total%2 == 1){
-    return "Odd";
-}
+    if (total%2 == 1){
+        return "Odd";
+    }
 
-else if (total%2 == 0){
-    return "Even";
-}
-
-
+    else if (total%2 == 0){
+        return "Even";
+    }
 
 }
